@@ -8,29 +8,6 @@ body{
     padding: 10px 150px 10px;
 }
 
-/* COMEÇO - BOTÃO PARA MUDAR A LINGUAGEM */
-.conjunto-botao{
-    background-color: black;
-    padding: 5px 30px 6px;
-    border-radius: 180px;
-    color: #fffcf7;
-    justify-content: center;
-    align-items: center;
-}
-
-.botao-linguagem{
-    font-size: 80%;
-    padding: 5%;
-    text-align: center;
-    width: 20px;
-    height: 20px;
-    color: #fffcf7;
-    border: none;
-    background: none;
-}
-
-/* FIM - BOTÃO PARA MUDAR A LINGUAGEM */
-
 #hr-navbar{
     background-color: #7867BF;
     border-width: 3px;
@@ -57,7 +34,8 @@ body{
 }
 
 #texto-welcome{
-    font-size: 200%;
+    font-size: 150%;
+    width: 70%;
 }
 
 .botao-letstart{
@@ -69,7 +47,7 @@ body{
 }
 
 .div-img-welcome{
-    margin: 5% 5%;
+    margin: 5% 0%;
 }
 
 #imagem-inicial{
