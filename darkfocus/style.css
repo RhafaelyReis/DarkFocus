@@ -35,7 +35,6 @@ body{
 
 #texto-welcome{
     font-size: 150%;
-    width: 70%;
 }
 
 .botao-letstart{
@@ -47,11 +46,11 @@ body{
 }
 
 .div-img-welcome{
-    margin: 5% 0%;
+    margin: 0% 0%;
 }
 
 #imagem-inicial{
-    width: 115%;
+    width: 100%;
 }
 /* FIM - CONTEUDO BEM-VINDO */
 
@@ -62,7 +61,7 @@ body{
 }
 
 .fundo-relogio{
-    width: 35%;
+    width: 550px;
 }
 /* COMEÇO - BOTÕES DO CRONOMETRO */
 .div-botoes-cronometro{
@@ -99,4 +98,37 @@ footer{
     background-color: #7867BF;
     padding: 15px;
     text-align: center;
+}
+
+/* Estilos para telas grandes */
+@media (min-width: 992px) {
+    .card-welcome {
+        padding: 50px;
+    }
+
+    #hr-navbar {
+        margin: 0px 200px;
+    }
+}
+
+/* Estilos para telas médias */
+@media (max-width: 991px) {
+    .card-welcome {
+        padding: 30px;
+    }
+
+    #hr-navbar {
+        margin: 0px 100px;
+    }
+}
+
+/* Estilos para telas pequenas */
+@media (max-width: 767px) {
+    .card-welcome {
+        padding: 20px;
+    }
+
+    #hr-navbar {
+        margin: 0px 50px;
+    }
 }
