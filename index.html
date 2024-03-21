@@ -1,0 +1,130 @@
+<!-- COMEÇO - CONFIGURAÇÕES -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- ARQUIVO CSS -->
+    <link rel="stylesheet" href="darkfocus/style.css">
+
+    <!-- CONTEÚDO DA ABA DO SITE -->
+    <link rel="icon" href="darkfocus/imagens/dfpreto2.png">
+
+    <title>DarkFocus - Pomodoro Timer</title>
+</head>
+<!-- FIM - CONFIGURAÇÕES -->
+
+<body>
+
+    <!-- COMEÇO - HEADER -->
+    <header>
+        <nav class="navbar navbar-light barra-header">
+            <!-- Logotipo no lado esquerdo -->
+            <a class="navbar-brand" href="#">
+                <img src="darkfocus/imagens/logo.png" width="200" alt="">
+            </a>
+            <!-- Botão no lado direito -->
+            <div class="conjunto-botao">
+                <a href=""><button class="botao-linguagem">PT</button></a>
+                |
+                <a href=""><button class="botao-linguagem">US</button></a>
+            </div>
+        </nav>
+        <hr id="hr-navbar">
+    </header>
+    <!-- FIM - HEADER -->
+
+    <!-- COMEÇO - PARTE PRINCIPAL -->
+    <main>
+
+        <!-- COMEÇO - INICIO DO SITE -->
+        <div class="container card-welcome">
+            <div class="row">
+              <div class="col div-texto-welcome text-center">
+                <h1 id="titulo-welcome">Welcome!</h1>
+                <p id="texto-welcome">We are DarkFocus, your ally in the pursuit of maximum productivity! </p>
+                <a href="index.html#temporizador-div">
+                    <button type="button" class="botao-letstart">Let's Start</button>
+                </a>
+              </div>
+              <div class="col div-img-welcome">
+                <img id="imagem-inicial" src="darkfocus/imagens/inicial.gif" alt="">
+              </div>
+            </div>
+        </div>    
+        <!-- FIM - INICIO DO SITE -->
+
+        <!-- COMEÇO - CRONOMETRO -->
+        <div>
+
+            <div class="div-relogio d-flex justify-content-center align-items-center" id="temporizador-div">
+                <img class="fundo-relogio" src="darkfocus/imagens/fundo-relogio.png" alt="">
+            </div>
+            
+            <div class="btn-group-toggle div-botoes-cronometro d-flex justify-content-center align-items-center" data-toggle="buttons">
+                <label class="btn active botao-cronometro ">
+                  <input type="radio" name="options" id="option1" autocomplete="off" checked> FOCUS
+                </label>
+                <label class="btn botao-cronometro">
+                  <input type="radio" name="options" id="option2" autocomplete="off"> BREAK
+                </label>
+                <label class="btn botao-cronometro">
+                  <input type="radio" name="options" id="option3" autocomplete="off"> LONG BREAK
+                </label>
+            </div>
+
+        </div>
+        <!-- FIM - CRONOMETRO -->
+        
+        <!-- COMEÇO - CARDS INFORMATIVOS -->
+        <div id="carouselExampleIndicators" class="carousel slide div-carrossel-informativo" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner banner-carrossel">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="" alt="Primeiro Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="" alt="Segundo Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="" alt="Terceiro Slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
+          <!-- FIM - CARDS INFORMATIVOS -->
+
+    </main>
+    <!-- FIM - PARTE PRINCIPAL -->
+
+    <!-- COMEÇO - RODAPÉ -->
+    <footer>
+        DarkFocus - Pomodoro Timer - 2024
+    </footer>
+    <!-- FIM - RODAPÉ -->
+
+    <!-- COMEÇO - IMPORTAÇÃO DO JAVASCRIPT (BOOTSTRAP) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- FIM - IMPORTAÇÃO DO JAVASCRIPT (BOOTSTRAP) -->
+
+</body>
+
+</html>
