@@ -1,3 +1,124 @@
 body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #fffcf7;
+}
+
+/* COMEÇO - HEADER */
+.barra-header{
+    padding: 10px 150px 10px;
+}
+
+/* COMEÇO - BOTÃO PARA MUDAR A LINGUAGEM */
+.conjunto-botao{
+    background-color: black;
+    padding: 5px 30px 6px;
+    border-radius: 180px;
+    color: #fffcf7;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-linguagem{
+    font-size: 80%;
+    padding: 5%;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    color: #fffcf7;
+    border: none;
+    background: none;
+}
+
+/* FIM - BOTÃO PARA MUDAR A LINGUAGEM */
+
+#hr-navbar{
+    background-color: #7867BF;
+    border-width: 3px;
+    margin: 0px 200px;
+}
+/* FIM - HEADER */
+
+/* COMEÇO - CONTEUDO BEM-VINDO */
+.card-welcome{
+
+}
+
+.div-texto-welcome{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+}
+
+#titulo-welcome{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 450%;
+}
+
+#texto-welcome{
+    font-size: 200%;
+}
+
+.botao-letstart{
+    background-color: black;
+    border: none;
+    color: #fffcf7;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.div-img-welcome{
+    margin: 5% 5%;
+}
+
+#imagem-inicial{
+    width: 115%;
+}
+/* FIM - CONTEUDO BEM-VINDO */
+
+
+/* COMEÇO - CRONOMETRO */
+.div-relogio{
+    margin: 15px;
+}
+
+.fundo-relogio{
+    width: 35%;
+}
+/* COMEÇO - BOTÕES DO CRONOMETRO */
+.div-botoes-cronometro{
+
+}
+
+.botao-cronometro{
+    border-color: black;
+    border-width: 3px;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+/* FIM - BOTÕES DO CRONOMETRO */
+/* FIM - CRONOMETRO */
+
+/* COMEÇO - CARROSSEL INFORMATIVO */
+.div-carrossel-informativo{
+    margin: 5% 10%;
+}
+
+.banner-carrossel{
+    border-radius: 50px;
+    background-color: black;
+    width: 100%;
+    height: 500px;
+}
+/* FIM - CARROSSEL INFORMATIVO */
+
+footer{
+    background-color: #7867BF;
+    padding: 15px;
+    text-align: center;
 }
