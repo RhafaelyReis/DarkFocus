@@ -16,10 +16,6 @@ body{
 /* FIM - HEADER */
 
 /* COMEÇO - CONTEUDO BEM-VINDO */
-.card-welcome{
-
-}
-
 .div-texto-welcome{
     display: flex;
     align-items: center; 
@@ -64,10 +60,6 @@ body{
     width: 550px;
 }
 /* COMEÇO - BOTÕES DO CRONOMETRO */
-.div-botoes-cronometro{
-
-}
-
 .botao-cronometro{
     border-color: black;
     border-width: 3px;
