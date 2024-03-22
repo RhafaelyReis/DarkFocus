@@ -5,7 +5,7 @@ body{
 
 /* COMEÇO - HEADER */
 .barra-header{
-    padding: 10px 150px 10px;
+    padding: 10px 150px;
 }
 
 #hr-navbar{
@@ -58,8 +58,32 @@ body{
 
 .fundo-relogio{
     width: 550px;
+    position: relative;
 }
+
+.conteudo-dentro-imagem {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    color: white; 
+    z-index: 1;
+}
+
 /* COMEÇO - BOTÕES DO CRONOMETRO */
+.botao-cronometro-start{
+    border-color: #fffcf7;
+    color: #fffcf7;
+    background: none;
+    border-width: 3px;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
 .botao-cronometro{
     border-color: black;
     border-width: 3px;
@@ -83,6 +107,31 @@ body{
     background-color: black;
     width: 100%;
     height: 500px;
+    color: #fffcf7;
+}
+
+.div-texto-card-sobre{
+    margin-left: 10%;
+    text-align: center;
+}
+
+#titulo-sobre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 130%;
+}
+
+#paragrafo-sobre{
+    font-size: 23px;
+    width: 130%;
+}
+
+.div-img-card-sobre{
+    padding-right: 10%;
+}
+
+.img-card-sobre{
+    width: 70%;
 }
 /* FIM - CARROSSEL INFORMATIVO */
 
