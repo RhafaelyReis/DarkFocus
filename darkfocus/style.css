@@ -99,7 +99,7 @@ body{
 
 /* COMEÇO - CARROSSEL INFORMATIVO */
 .div-carrossel-informativo{
-    margin: 5% 10%;
+    margin: 5% 200px;
 }
 
 .banner-carrossel{
@@ -115,13 +115,13 @@ body{
     text-align: center;
 }
 
-#titulo-sobre{
+#titulo-card{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     width: 130%;
 }
 
-#paragrafo-sobre{
+#paragrafo-card{
     font-size: 23px;
     width: 130%;
 }
@@ -130,8 +130,29 @@ body{
     padding-right: 10%;
 }
 
+.div-texto-card-pomodoro{
+    margin-right: 10%;
+    text-align: center;
+}
+
+#titulo-card-pomodoro{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: -30%;
+}
+
+#paragrafo-card-pomodoro{
+    font-size: 23px;
+    margin-left: -30%;
+}
+
 .img-card-sobre{
     width: 70%;
+}
+
+.img-tomate{
+    margin-left: -170px;
+    width: 350px;
 }
 /* FIM - CARROSSEL INFORMATIVO */
 
